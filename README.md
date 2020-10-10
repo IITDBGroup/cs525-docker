@@ -7,7 +7,7 @@ We have created an ubuntu based docker image for building and testing assignment
 
 You can get the image from docker hub by running
 
-~~~
+~~~sh
 docker pull iitdbgroup/cs525:latest
 ~~~
 
@@ -15,7 +15,7 @@ Create a container and share a folder with your host machine
 
 Change into the directory on you machine which has the cs525 source code. Then run
 
-~~~
+~~~sh
 docker run -ti --name cs525 -v $(pwd):/cs525 iitdbgroup/cs525
 ~~~
 
@@ -33,6 +33,13 @@ To restart run
 docker start -i cs525
 ~~~
 
+## Ubunutu 18.04 image
+
+The `latest` image uses the latest ubuntu version available through the docker image `ubuntu:latest`. Alternatively, you can use an Ubuntu 18.04 image:
+
+~~~sh
+docker pull iitdbgroup/cs525:18.04
+~~~
 
 ## Some further information on docker
 
