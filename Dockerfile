@@ -1,7 +1,7 @@
 ########################################
 # Derived from ubuntu distribution
 ########################################
-from ubuntu:18.04
+from ubuntu:latest
 MAINTAINER Boris Glavic <bglavic@iit.edu>
 ########################################
 # Create working directories
