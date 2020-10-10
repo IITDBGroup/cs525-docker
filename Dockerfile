@@ -1,7 +1,7 @@
 ########################################
 # Derived from ubuntu distribution
 ########################################
-from ubuntu:latest
+from ubuntu:18.04
 MAINTAINER Boris Glavic <bglavic@iit.edu>
 ########################################
 # Create working directories
@@ -20,7 +20,9 @@ RUN apt-get -y update && apt-get install -y \
 	valgrind \
 	gdb \
 	cmake \
-	g++ \
+    g++ \
+    vim \
+    emacs \
 	&& rm -rf /var/lib/apt/lists/*
 ########################################
 # Per default start bash
