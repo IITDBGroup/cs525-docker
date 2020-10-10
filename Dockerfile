@@ -20,7 +20,9 @@ RUN apt-get -y update && apt-get install -y \
 	valgrind \
 	gdb \
 	cmake \
-	g++ \
+    g++ \
+    vim \
+    emacs \
 	&& rm -rf /var/lib/apt/lists/*
 ########################################
 # Per default start bash
