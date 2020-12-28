@@ -10,6 +10,7 @@ WORKDIR /cs525
 ########################################
 # Install packages needed for development
 ########################################
+RUN DEBIAN_FRONTEND="noninteractive" apt-get -y update && apt-get -y install tzdata
 RUN apt-get -y update && apt-get install -y \
 	autotools-dev \
 	autoconf \
