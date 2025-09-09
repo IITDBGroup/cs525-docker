@@ -1,12 +1,12 @@
 ########################################
 # Derived from ubuntu distribution
 ########################################
-from ubuntu:latest
-MAINTAINER Boris Glavic <bglavic@uic.edu>
+FROM ubuntu:24.04
+LABEL org.opencontainers.image.authors="bglavic@uic.edu"
 ########################################
 # Create working directories
 ########################################
-WORKDIR /cs525
+WORKDIR /cs581
 ########################################
 # Install packages needed for development
 ########################################
