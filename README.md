@@ -41,4 +41,4 @@ docker start -i cs581
 
 ## Package Requests
 
-Please use the course's google group to request additional packages to be installed.
+Please use the issue tracker of this repository to request packages to be added to the image.
