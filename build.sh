@@ -1,2 +1,2 @@
 #!/bin/sh
-docker build -t iitdbgroup/cs581:latest .
+docker buildx build --push --platform linux/amd64,linux/arm64 -t iitdbgroup/cs581:latest .
